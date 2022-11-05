@@ -1,6 +1,10 @@
 <!doctype
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <title></title>
 </head>
 <body>
@@ -20,7 +24,7 @@
 
 
 
-    <div class="navbar">
+    <div class="navbar" data-aos="zoom-in-up" >
 
         <a href="gallery.html">
             <button>Gallery</button>
@@ -35,16 +39,16 @@
 
 
 
-    <img src="images/floor.gif" id="floor" />
+    <img src="images/floor.gif" id="floor" data-aos="zoom-in-up" />
 
-    <img src="images/info3.png" id="info3" />
-
-
+    <img src="images/info3.png" id="info3" data-aos="zoom-in-up" />
 
 
 
 
-    <div class="icons">
+
+
+    <div class="icons" data-aos="zoom-in-up" >
         <a href="tel:402-672-9607">
             <img src="images/phone.png" id="phone" class="icon" width="10%" />
         </a>
@@ -69,7 +73,7 @@
 
 
 
-    <div class="about">
+    <div class="about" data-aos="zoom-in-up" >
         <img src="images/covid.png" id="covid" />
 
         <img src="images/head.png" id="head" width="30%" />
@@ -81,13 +85,13 @@
         <img src="images/hello.png" id="hello" width="60%" />
     </div>
 
-    <img src="images/room.jpg" id="room" />
+    <img src="images/room.jpg" id="room" data-aos="zoom-in-up" />
 
 
-    <img src="images/perfect.png" id="perfect"  />
+    <img src="images/perfect.png" id="perfect"  data-aos="zoom-in-up" />
 
 
-    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.carpetone.com%2Froom%3Ffbclid%3DIwAR2uKEgzjGf-blStg-7efDvjVqYAXgTq7oDfocjLn3CQEjt8eU8seXvpH7U&h=AT1CXCLu_dI-0n5HfOqpaWlCVldLGFzOmOW-I26XuRTTe4JCKpzvNfx-P7bxjpE2xzQ1B6gQVY8uC1D-FXMAF7Sk_ousa-Q1EZYMwK2XQdfKLxRAhxTWVmSTMa_tRZPuGutuUSfv1DfUXM4GY0LHZA" target="_blank">
+    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.carpetone.com%2Froom%3Ffbclid%3DIwAR2uKEgzjGf-blStg-7efDvjVqYAXgTq7oDfocjLn3CQEjt8eU8seXvpH7U&h=AT1CXCLu_dI-0n5HfOqpaWlCVldLGFzOmOW-I26XuRTTe4JCKpzvNfx-P7bxjpE2xzQ1B6gQVY8uC1D-FXMAF7Sk_ousa-Q1EZYMwK2XQdfKLxRAhxTWVmSTMa_tRZPuGutuUSfv1DfUXM4GY0LHZA" target="_blank" data-aos="zoom-in-up" >
         <button id="roombtn">
             Check It Out!
         </button>
@@ -95,7 +99,7 @@
     </a>
 
 
-    <div class="map">
+    <div class="map" data-aos="zoom-in-up" >
         <div class="mapouter">
             <div class="gmap_canvas">
                 <iframe width="100%" height="400px" id="gmap_canvas"
@@ -403,7 +407,15 @@
 </script>
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+    <script>
+        AOS.init({
+         duration:2000,
+         once:false,
+        });
+    </script>
 
 
 
