@@ -16,7 +16,7 @@
 
 
 
-<img src="images/main.jpg" id="main" width="120%" />
+<img src="images/main.jpg" id="main" width="100%" />
     
 
 
@@ -50,16 +50,16 @@
 
     <div class="icons" data-aos="zoom-in-up" >
         <a href="tel:402-672-9607">
-            <img src="images/phone.png" id="phone" class="icon" width="10%" />
+            <img src="images/phone.png" id="phone" class="icon"  />
         </a>
 
         <a href="mailto:brroumph@gmail.com">
-            <img src="images/mail.png" id="mail" class="icon" width="10%" />
+            <img src="images/mail.png" id="mail" class="icon" />
         </a>
 
 
         <a href="https://www.facebook.com/beesflooringne">
-            <img src="images/fb.png" id="fb" class="icon" width="8%" />
+            <img src="images/fb.png" id="fb" class="icon" />
         </a>
     </div>
 
@@ -140,19 +140,19 @@
     html {
         text-align: center;
         background-color: whitesmoke;
-        margin-left: 5%;
+        width: 80%;
     }
 
 
 
     body {
-    text-align: center;
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
-    width: 90%;
-    margin-left: 20%;
-    margin-right: 0%;
+        text-align: center;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 0%;
     }
 
 
@@ -219,7 +219,7 @@
 
 
     #main{
-        margin-left:-10%;
+        margin-left:%;
 
     }
 
@@ -228,6 +228,7 @@
 
 
     #head {
+        margin-top: 5%;
         width: 40%;
     }
 
@@ -257,26 +258,28 @@
 
 
     .icons {
-        margin-top: -20%;
-        margin-left: -55%;
-        margin-bottom: 10%;
+        left: -210px;
+        top: 10VH;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        gap: 5%;
     }
-    .icon{
-        padding:2%;
-        width:5%;
+        .icon{
+        padding:5%;
+        width:10%;
 
     }
 
         .icon:hover{
             
-           
+            width: 11%;
 
         }
 
 
 
     #phone:hover {
-        width: 6%;
    
     }
 
@@ -287,24 +290,20 @@
 
 
         #mail {
-            width: 7%;
         }
 
 
             #mail:hover {
-                width: 8%;
             }
 
 
 
     #fb{
-        width:3%;
 
     }
 
 
     #fb:hover {
-        width: 4%;
     }
 
 
@@ -319,7 +318,17 @@
 
 
     .navbar {
-       
+        display: flex;
+        align-content: stretch;
+        justify-content: space-evenly;
+        position: fixed;
+        top: 0;
+        left:0;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 0px;
+        margin-left:5%;
+        gap: 10%;
     }
 
     button {
