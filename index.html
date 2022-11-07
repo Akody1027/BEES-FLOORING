@@ -41,6 +41,79 @@
 
 
 
+    <div class="marquee" data-aos="zoom-in-up">
+        <ul class="marquee-content">
+
+            <li>
+                <img id="icon" src="images/1.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/2.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/3.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/4.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/5.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/6.jpg"  />
+            </li>
+
+            <li>
+                <img id="icon" src="images/7.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/8.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/9.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/10.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/11.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/12.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/13.jpg" />
+            </li>
+
+            <li>
+                <img id="icon" src="images/14.jpg" />
+            </li>
+
+
+
+
+        </ul>
+
+    </div>
+
+
+
+
+
+
+
+
 
     <img src="images/info3.png" id="info3" data-aos="zoom-in-up" />
 
@@ -236,6 +309,57 @@
         h1:hover {
             color: #ffff0091;
         }
+
+
+
+
+    .marquee {
+        padding-top: 10%;
+        margin-bottom: 10%;
+        overflow: hidden;
+    }
+
+    .marquee-content {
+        
+        display: flex;
+        list-style: none;
+        text-align: center;
+        animation: scrolling 25s linear infinite;
+    }
+
+    @keyframes scrolling {
+        0% {
+            transform: translateX(0vw);
+        }
+
+        100% {
+            transform: translateX(-320vw);
+        }
+    }
+
+
+    .marquee-content li {
+        flex-shrink: 0;
+        white-space: nowrap;
+        justify-content: center;
+    }
+
+
+    #icon {
+        height: 250px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
