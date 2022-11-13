@@ -1,0 +1,433 @@
+<!doctype
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+
+
+</head>
+<body>
+
+    <div id="loader">
+        <img src="images/loader.gif" id="loaderimg" width="50%" />
+        <img src="images/bg.jpg" id="bgimg" width="100%" />
+    </div>
+
+
+
+
+
+    <div class="navbar" data-aos="zoom-in-up">
+
+        <a href="gallery.html">
+            <h1>Gallery</h1>
+        </a>
+
+        <a href="contact.html">
+            <h1>Contact</h1>
+        </a>
+
+
+
+    </div>
+
+
+
+
+
+    <div class="icons" >
+
+
+        <a href="tel:402-672-9607">
+            <img src="images/phone.png" id="phone" class="icon" />
+        </a>
+
+        <a href="mailto:brroumph@gmail.com">
+            <img src="images/mail.png" id="mail" class="icon" />
+        </a>
+
+
+        <a href="https://www.facebook.com/beesflooringne">
+            <img src="images/fb.png" id="fb" class="icon" />
+        </a>
+    </div>
+
+
+
+    <div class="rightside">
+
+
+
+
+        <img src="images/main.jpg" id="main" width="100%"  data-aos="zoom-in-up"/>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="marquee" data-aos="zoom-in-up">
+            <ul class="marquee-content">
+
+                <li>
+                    <img id="icon" src="images/1.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/2.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/3.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/4.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/5.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/6.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/7.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/8.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/9.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/10.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/11.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/12.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/13.jpg" />
+                </li>
+
+                <li>
+                    <img id="icon" src="images/14.jpg" />
+                </li>
+
+
+
+
+            </ul>
+
+        </div>
+
+        <img src="images/info3.png" id="info3" width="90%" data-aos="zoom-in-up"/>
+
+
+
+        <div class="about">
+            <img src="images/covid.png" id="covid" data-aos="zoom-in-up"/>
+
+            <img src="images/head.png" id="head" width="40%" data-aos="zoom-in-up"/>
+
+
+            <img src="images/about.png" id="about" width="50%" data-aos="zoom-in-up"/>
+
+
+            <img src="images/hello.png" id="hello" width="90%" data-aos="zoom-in-up"/>
+        </div>
+
+
+
+        <a href="https://www.carpetone.com/room" target="_blank">
+
+            <img src="images/room.jpg" id="room" width="100%"  data-aos="zoom-in-up"/>
+
+        </a>
+
+        <div class="bs2div" data-aos="zoom-in-up">
+            <img src="images/bs2.png" id="bs2" class="icon" />
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <style>
+
+        body {
+            margin: 0px;
+            text-align: center;
+            background-color: whitesmoke;
+        }
+
+
+
+
+        #loader {
+            top: 0%;
+            left: 0%;
+            opacity: 100%;
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: whitesmoke;
+            position: fixed;
+        }
+
+        .disappear {
+            animation: vanish 2s forwards;
+        }
+
+        @keyframes vanish {
+
+
+
+            100% {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+
+
+        #loaderimg {
+            border-radius: 100% 100%;
+        }
+
+
+        #bgimg {
+            z-index: -10;
+            position: fixed;
+            height: 100vh;
+            opacity: 40%;
+        }
+
+
+
+
+
+
+
+
+
+
+
+        .icons {
+            margin-top: 5%;
+            width: 10%;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            height: 100%;
+        }
+
+        .icon {
+            margin-top: 40%;
+            width: 40px;
+            z-index: 5;
+            padding: 15%;
+        }
+
+
+            .icon:hover {
+                filter: drop-shadow(5px 5px 5px #ffff0091);
+            }
+
+
+
+
+
+
+
+        .rightside {
+            margin-left: 10%;
+            width: 90%;
+            background-color: #ffff008a;
+        }
+
+
+
+
+
+
+
+        .navbar {
+            display: flex;
+            gap: 5%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            background-color: black;
+            padding-left: 10%;
+        }
+
+        .navbuttons {
+        }
+
+
+
+
+        h1 {
+            gap: 5%;
+            font-size: 200%;
+            color: white;
+            padding-top: 0%;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+            h1:hover {
+                margin-top: 0%;
+                filter: drop-shadow(5px 5px 5px yellow);
+                opacity: 100%;
+            }
+
+
+
+
+        a {
+            text-decoration: none;
+        }
+
+
+            a:hover {
+                box-shadow: #ffff0091;
+            }
+
+
+        #main {
+        }
+
+
+        .marquee {
+            width: 100%;
+            margin-bottom: 10%;
+            overflow: hidden;
+        }
+
+        .marquee-content {
+            display: flex;
+            list-style: none;
+            text-align: center;
+            animation: scrolling 40s linear infinite;
+        }
+
+        @keyframes scrolling {
+            0% {
+                transform: translateX(0vw);
+            }
+
+            100% {
+                transform: translateX(-100vw);
+            }
+        }
+
+
+        .marquee-content li {
+            flex-shrink: 0;
+            white-space: nowrap;
+            justify-content: center;
+        }
+
+
+        #icon {
+            height: 150px;
+        }
+
+
+        #covid {
+            width: 90%;
+            margin-top: 10%;
+        }
+
+        #head {
+            margin-top: 10%;
+        }
+
+
+        #room {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+
+
+
+        .bs2div {
+            width: 100%;
+            background-color: black;
+        }
+
+
+
+
+
+        #bs2 {
+            width: 10%;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            padding: 0%;
+        }
+    </style>
+
+
+
+
+    <script>
+    let loader = document.querySelector("#loader")
+
+    window.addEventListener("load", vanish);
+
+    function vanish() {
+        loader.classList.add("disappear")
+
+
+    }
+    </script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+        AOS.init({
+         duration:2000,
+         once:false,
+        });
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
